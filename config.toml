@@ -91,3 +91,12 @@ enable = true
 # change content/<lang>/... to content/...
 from = "content/(.*?)/(.*?)"
 to = "content/$2"
+
+# Add some extra headers to the development server.
+# This is only relevant with `hugo serve`.
+[server]
+[[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Cross-Origin-Opener-Policy = "same-origin"
+      Cross-Origin-Embedder-Policy = "require-corp"

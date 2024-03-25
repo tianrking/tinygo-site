@@ -12,6 +12,13 @@
 [context.release.environment]
   HUGO_ENV = "production"
 
+# Required for the playground (it needs SharedArrayBuffer).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
+
 [[redirects]]
   from = "/bluetooth"
   to = "https://github.com/tinygo-org/bluetooth#go-bluetooth"

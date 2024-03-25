@@ -28,7 +28,66 @@ Ready to get started? [Click here](getting-started).
 
 {{% /blocks/lead %}}
 
-{{< blocks/section color="primary-light" type="row" >}}
+{{% blocks/section color="primary-light" %}}
+<link rel="stylesheet" href="playground/simulator.css">
+<script type="module" src="playground.js"></script>
+<div class="col">
+	<div class="container" id="playground">
+		<h1 class="text-center">Try TinyGo</h1>
+		<div class="row px-0">
+			<div class="col col-auto">
+				<div class="input-group mb-3">
+					<span class="input-group-text">Example</span>
+					<select class="form-select example_select" disabled>
+						<option value="hello">Hello world</option>
+						<option value="arduino" selected>Blinking LED (Arduino Uno)</option>
+						<option value="circuitplay_express">RGB LEDs (Adafruit Circuit Playground Express)</option>
+						<option value="gopher_badge">Display (Gopher Badge)</option>
+					</select>
+				</div>
+			</div>
+			<div class="col col-auto">
+				<button class="btn btn-secondary playground-btn-flash" disabled>Download binary</button>
+			</div>
+		</div>
+		<textarea placeholder="Loading..." class="form-control input" rows="20" style="font-family: monospace; tab-size: 4" spellcheck="false"></textarea>
+		<div class="simulator inline">
+			<div class="schematic-buttons">
+				<button class="schematic-button-pause schematic-button" title="Pause/resume the simulation">
+					<!-- only one of these two images is visible at a time -->
+					<img src="playground/resources/codicon/debug-pause.svg" class="button-img-pause"/>
+					<img src="playground/resources/codicon/play.svg" class="button-img-play"/>
+				</button>
+			</div>
+			<svg class="schematic">
+				<g class="schematic-wrapper" style="transform: translate(50%, 50%)">
+					<g class="schematic-parts"></g>
+					<g class="schematic-wires"></g>
+				</g>
+			</svg>
+			<div class="panels">
+				<div class="tabbar">
+					<span class="tab active panel-tab-terminal"><a>Terminal</a></span>
+					<span class="tab"><a>Properties</a></span>
+					<span class="tab"><a>Add</a></span>
+				</div>
+				<div class="tabcontent active terminal-box">
+					<textarea class="terminal" readonly></textarea>
+				</div>
+				<div class="tabcontent panel-properties">
+					<div class="content"></div>
+				</div>
+				<div class="tabcontent panel-add">
+					Loading...
+				</div>
+			</div>
+			<div class="schematic-tooltip"></div>
+		</div>
+	</div>
+</div>
+{{% /blocks/section %}}
+
+{{< blocks/section color="primary" type="row" >}}
 {{% blocks/feature icon="fa-lightbulb" title="TinyGo Playground" url="https://play.tinygo.org/" %}}
 Try TinyGo online
 {{% /blocks/feature %}}
