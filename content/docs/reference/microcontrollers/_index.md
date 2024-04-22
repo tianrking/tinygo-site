@@ -8,7 +8,7 @@ description: |
 
 TinyGo lets you run Go directly on microcontrollers.
 
-TinyGo has support for 85 different boards and devices such as the Arduino Nano33 IoT, Adafruit Circuit Playground Express, BBC micro:bit and more. Click on a board name below to see the what features are supported for the given hardware.
+TinyGo has support for over 100 different boards and devices such as the Arduino Nano33 IoT, Adafruit Circuit Playground Express, BBC micro:bit and more. Click on a board name below to see the what features are supported for the given hardware.
 
 Support for some boards and processor types are more complete than others.
 As of early 2023, boards using the following microcontrollers are
