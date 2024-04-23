@@ -28,10 +28,10 @@ copyright = "The TinyGo Authors"
 description = "A Go compiler for small places"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-# gcs_engine_id = "feba5f0a3db52897d"
+gcs_engine_id = "feba5f0a3db52897d"
 
 # Enable Algolia DocSearch
-algolia_docsearch = true
+# algolia_docsearch = true
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/tinygo-org/tinygo-site"
