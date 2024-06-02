@@ -11,9 +11,9 @@ Here are some of the "official" packages and resources in the TinyGo ecosystem t
 
 [I want to use a display connected to my device](#displays)
 
-[I want to make a wireless connection with my device](#sensors)
+[I want to make a wireless connection with my device](#wireless)
 
-[I want to store data on my device](#sensors)
+[I want to store data on my device](#data-storage)
 
 There are also other great resources in the community. You can find some of them in the "Awesome TinyGo" repository:
 
