@@ -27,7 +27,13 @@ make wasi-libc
 make binaryen
 ```
 
-These command may need to be re-run after some updates in TinyGo.
+These commands may need to be re-run after some updates in TinyGo.
+
+The make target for `binaryen` is disabled in for MacOS, and the tool can be installed with:
+
+```shell
+brew install binaryen
+```
 
 There are also some extra tools you will need to install, depending on your operating system. These tools are avrdude and openocd. Check the additional requirements for your operating system:
 
