@@ -30,7 +30,7 @@ Ready to get started? [Click here](getting-started).
 
 {{% blocks/section color="primary-light" %}}
 <link rel="stylesheet" href="playground/simulator.css">
-<script type="module" src="playground.js"></script>
+<script type="module" src="playground-home.js"></script>
 <div class="col">
 	<div class="container" id="playground">
 		<h1 class="text-center">Try TinyGo</h1>
