@@ -7,7 +7,7 @@ description: |
 
 TinyGo is very useful for compiling programs for use on servers and other edge devices (WASI).
 
-TinyGo programs can run in [Extism](https://github.com/extism/extism), [Fastly Compute@Edge](https://developer.fastly.com/learning/compute/go/), [Fermyon Spin](https://developer.fermyon.com/spin/go-components), [wazero](https://wazero.io/languages/tinygo/) and many other WebAssembly runtimes.
+TinyGo programs can run in [Extism](https://github.com/extism/extism), [Fastly Compute@Edge](https://developer.fastly.com/learning/compute/go/), [Fermyon Spin](https://developer.fermyon.com/spin/go-components), [tau](https://github.com/taubyte/tau), [wazero](https://wazero.io/languages/tinygo/) and many other WebAssembly runtimes.
 
 Here is a small TinyGo program for use within a WASI host application:
 
