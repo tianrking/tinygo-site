@@ -15,8 +15,8 @@ The [Seeed XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.h
 | I2C       | YES                | YES            |
 | ADC       | YES                | YES            |
 | PWM       | YES                | YES            |
-| WiFi      | YES                | YES            |
-| Bluetooth | YES                | Partial        |
+| WiFi      | YES                | Not Yet        |
+| Bluetooth | YES                | Not Yet        |
 
 ## Pins
 
