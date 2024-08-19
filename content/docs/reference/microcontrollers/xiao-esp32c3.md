@@ -48,8 +48,6 @@ The [Seeed XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.h
     ```
 - The XIAO ESP32C3 board should restart and then begin running your program.
 
-非常好的建议。我们可以在文档中添加这个构建命令，并解释一下各个参数的作用。让我们更新一下文档的 Flashing 部分：
-
 ## Flashing and Building
 
 ### CLI Building
